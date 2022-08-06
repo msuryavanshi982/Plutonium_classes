@@ -1,0 +1,20 @@
+=> ........DOM (Document Object Model)...=>representation of page as document 
+
+=>  It is a programming interface that allows us to create, change, or remove elements from the document.
+=>  We can also add events to these elements to make our page more dynamic.
+=> The DOM views an HTML document as a tree of nodes. A node represents an HTML element.
+=>   using DOM  helps javascript to change  element on a webpage dynamically 
+-->   i.e without having changes
+
+===>    js is also object oriented but not a class based object oriented language like java.
+
+    * js runs in browser and can be disabled
+    * not all browsers will suport all js funtions-though rare
+    *javascript and java are tottaly different -no relation
+    *js code is placed in head section 
+         -else what if body makes a call to your js before the script is loded 
+
+// -->>>     Javascript is Object-oriented ---->>>
+
+// ....     Each object will have a bunch of attributes or variables(and values)
+// ....     associated it.. 

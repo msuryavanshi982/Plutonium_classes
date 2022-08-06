@@ -1,0 +1,44 @@
+====>>> Git :==========================================================================->
+- It is the verson control software that runs locally on our  machine.
+
+====>>> Github :========================================================================> 
+- Github is a service that hosts Git repositories  and makes it easier to collaborate with other people.
+
+
+///-----------------------------------Git config ----------------------------------------------0->
+
+=> git config –-list : -> To shows the content of git config file
+=> git config –-global user.name "MEENAKSHI" : -> To set user name in git config
+=> git config –-global user.password [access_token] : -> To sets access_token as user password in git config.
+
+--->>> Note:->  Don’t forget to create an access token at Github. This token should be used as password.
+
+--->>> To Create access token  :- 
+Account > Setting > Developer Setting > Personal Access Token > Generate Access Token > Save the token somewhere
+
+===================================================================================================
+__________________________________________________________________________________________________
+---------------------->>> git Commands Description <<<--------------------------------------------
+1.) git init  :-> To Initialize a local Git repository
+2.) git clone [repository_url]  :-> To Create a local copy of a remote repository
+3.) git status  :->  To Check status 
+4.) git add [file-name]  :->  To add a file to the staging area
+5.) git add -a  :-> To add all new and changed files to the staging area
+6.) git commit -m "[commit message]" :-> To Commit changes
+7.) git push :-> pushes the commit to remote on the same repository. 
+8.) git push [repository-link] :-> pushes the commit to remote at the specified repository
+9.) git push --set-upstream origin [branch_name] :-> (Only applicable when pushing a new branch for the first time)
+7.) git rm -r [file-name/ folder_name ]  :-> To remove a file (or folder)
+8.) git branch :-> To show  current branch.
+9.) git branch -a  :-> To show list of all branches (local and remote)
+10.) git branch -b [branch name]  :-> To create a new branch.
+12.) git checkout [branch name] :--> To Switch to a branch
+13.) git checkout  :-->  Switch to the last checked out branch.
+14.) git checkout --[file-name] :-> Discard changes to a file
+15.) git merge [branch name] :-> Merge a branch into the active branch
+16.) git merge [source branch] [target branch] :-> Merge a branch into a target branch
+17.) git stash  :-> Stash changes in a  working directory.
+18.) git stash clear :-> Remove all stashed entries.
+19.) git fetch :-> to refresh repository.
+20.) git pull --rebase  :-> To refresh branch
+_________________________________________________________________________________________________

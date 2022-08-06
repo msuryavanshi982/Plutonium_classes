@@ -1,0 +1,34 @@
+===>>> We have to install ------------------------------------------------------------------->
+
+1.) Discord/Microsoft Teams
+2.) Vs Code
+3.) Git Install
+4.) node js
+5.) Postman
+➡ GUI - Graphic User Interface
+
+===>>> NOTE->  Directory means folder
+================================================================================================
+
+--->______________________ terminal Commands ___________________________________________>>>
+
+1.) ls  -> It will print the list of the directory.
+2.) cd ..  ->  To go back from the current directory to previous directory. 
+3.) cd [folder_name]  -> To go to a particular folder.
+4.) clear  -> To clear the terminal
+5.) cd ../../  -> To go back two folders
+6.) pwd  -> This command will show present working directory 
+7.) history  -> It will print all the commands which we used previously.
+8.) mkdir [directory_name]  -> To make to particular directory.
+9.) rmdir [directory_name]  -> To remove or delete the particular directory.
+10.) rm -r [directory_name]  -> To remove recursively or non empty directory. 
+11.) touch [file_name]  -> To create file .
+12.) cat [file_name]  -> This command will show the content inside of the file(concatenate)
+13.) cat > [file_name]  -> To overwrite the content inside a file.
+14.) ctrl+D  -> To save the changes.
+15.) cat >> [file_name]  -> To add some content inside a file.
+16.) history : Shows recently used commands
+17.) cp source destination -> To copy
+18.) mv source destination -> to move 
+===========================================================================================
+___________________________________________________________________________________________

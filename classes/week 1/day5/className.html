@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div> this is div</div>
+    <p class="example" id="p">a para with id p and class example</p>
+    <p class="example" id="q">a para with id q and class example</p>
+    <p class="example" id="r">a para with id r and class example</p>
+    <button onclick="myFunc()">click me</button>
+    <script type="text/javascript">
+        function myFunc(){
+            // document.getElementById("q").style.backgroundColor = "aqua";
+            // document.querySelector(".example").style.backgroundColor = "aqua";
+            // document.querySelector("#r").style.backgroundColor = "orange";
+            // document.querySelector("p").style.backgroundColor = "red" ;
+            document.querySelector("div").style.backgroundColor = "green"; 
+            
+        }
+        
+    </script>
+</body>
+</html>
+
+<!--  querySelector : -
+It returns the firt element that matches the specified CSS selector (s) in the document . 
+
+===> QuerySelectorAll() returns all the matching elements.->
+
+<!-- Data Types :- -->
+
+//.....h.w......//
+
+var abhishek= { name: "Abhishek Bacchna", 
+               age: 35 ,
+               weight: "100kgs" ,
+               parents: ["Amit", "Jaya"] ,
+               siblings: ["ABC", "DEF"] 
+              }
+// console.log()
+//  "Abhishek bachan is of age 35 and has 100kgs weight and has parents named Amit and Jaya and has siblings named ABC and DEF"
+
+

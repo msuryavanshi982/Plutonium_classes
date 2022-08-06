@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <p style="color: red; font-size: 50px">
+      Figure out how to sort an array of numbers in numerical manner (ascending
+      or descending).
+    </p>
+    <br />
+    <h5 style="font-size: 30px">Before Sorting</h5>
+    <h1>arr: [43,98, 48, 9, 5, 11]</h1>
+    <br />
+    <h5 style="font-size: 30px">After Sorting</h5>
+    <h1 id="arr"></h1>
+    <script>
+      let arr = [43, 98, 48, 9, 5, 11];
+      let arr_sort = arr.sort(function (a, b) {
+        // 1.) method
+        if (a > b) return 1;
+        if (a < b) return -1;
+        // 2.) method
+        return a - b;
+      });
+      var result = "arr: " + arr_sort;
+      document.getElementById("arr").innerHTML = result;
+    </script>
+  </body>
+</html>

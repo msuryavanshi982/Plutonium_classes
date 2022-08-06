@@ -1,0 +1,11 @@
+  488  mkdir FunctionUp
+  489  ls
+  490  cd FunctionUp/
+  491  git clone https://github.com/sabihak89/plutonium.git
+  492  cd plutonium/
+  493  git branch -a
+  494  git checkout session/nodejs-intro
+  495  git push https://github.com/msuryavanshi982/plutonium_fork-repo.git
+  496  git status
+  497  git branch -a
+  498  history

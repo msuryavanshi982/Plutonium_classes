@@ -1,0 +1,81 @@
+=>Ram = how to save data in variable in RAM.
+=>console.log = to print instructions we use console.log(). without using console, code will run . memory lookup of variables.
+
+===> ES-6(6th edition =2015)
+->Top 10 features introduced by ES-6 in 2015 :-
+
+* let , const , rest ,spread 
+* arrow function 
+* multi-line strings
+* Default parameters 
+* Template Literals 
+* Destructuring Assignment 
+* Enhace Object literals
+* promises 
+* Class 
+* modules 
+
+===> Spread operator => synatax = (...)
+-> to be expanded in places 
+-> to copy an array.
+-> to concate arrays. 
+
+===> Destructuring = to unpack values 
+=> variadic function :- indefinite number of arguments i.e. there is no fixed arguments in function .
+
+===> mutability And immutability :- >
+
+-> mutable -  that can be change e.g. let . we can't check previous values which are saved in let variable
+-> immutable - > which can't be change e.g. const variuable . Time travel and predictablility is posiible in it . i.e. we can check previous value which saved in const value becaue it is contant .
+
+array = collection of data items.
+objects = It is a document , In which data stored in key- value pairs .
+===> by using the combination of array and object we can create complex data structure .
+
+===>>> CRUD operations on array and objects =>
+(create, read , update , delete)
+
+===>CRUD In object :--->
+
+->to create we use {} and we will use : to seperate key- value pairs in object.
+-> to read object we use dot notation & bracket notation.
+= i.e. object_name.key_name (or) object_name["key_name"]
+-> to update we can change the value of object 
+-> to remove data we will use delete keyword . i.e. delete.object_name.key_name
+
+====>>> CRUD in array--->
+
+-> to create array we use squate brackets . i.e. we will write array_name = [ elements of array].
+-> to read array elements we will use index numbers . e.g. array[0];
+-> to update we also use index numbers then we can change the element.
+-> to delete elements in array we use pop(), shift() and splice() methods .
+
+==> Note = we can access array inside object and vica versa.
+
+===>> Differences between object and array ;-
+
+* object has no sequence or order whereas array maintains order.
+* In object deletion and addition of keys are very fast . But In array It is slow , if we are not  doing this operation at the tail.
+* object can't find key by value but array can find index by value 
+* In object we can't store duplicate data/value but In array we can store .
+
+// advance operations :-
+
+-> Object.keys= it gives all the keys of an object.
+-> Object.values = It gives all the values of an object.
+-> Object.entries= It gives key - value pairs in an array of object.
+
+===> There are rules for the keys :=
+
+* we can't start key name with numbers.
+* key name doen't have space.
+note=> all the  keys in objects are string 
+=> Value doen't have any restrictions.
+
+Note Points ====>
+
+* We can store duplicate data but we can't use same keys name . If we use same key names, latest key will replace the previos kay data . It means previous key will delete automatically.
+
+* If we are creating a box using cont , const will not stop to changing the content of non primitive data type(object) .  
+* const is immutability only for primitive data types. We can edit data in complex data structure . But we can't add or delete data from complex data structure. 
+* We can make it immutable by using Object.freeze()  . i.e. we can freeze the editiong in object .

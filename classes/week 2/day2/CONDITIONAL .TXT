@@ -1,0 +1,70 @@
+/* ===> programming -> It is a series of logical instructions .
+===>PSUDO code :- It is look like a code . it not a code .
+
+---> conditional statments ---
+=> if else statemnets 
+=> nested if else 
+=> switch case statements 
+
+//....loops -> to do things repeately .we use loops. 
+=> for loop 
+=> while loop 
+=> do while loop 
+
+-> break and continue keywords 
+ */
+
+for loop:- The initialization, condition, and iteration statements are written at the beginning of the loop.
+syntax: - 
+for(initialization; condition; iteration){
+   //body of the 'for' loop
+}
+
+while loop: -The initialization and the condition checking are done at the beginning of the loop.
+syntax -
+while ( condition) {
+   statements;
+   //body of the loop
+}
+
+do...while loop:- The controlling condition is present at the end of the loop.
+And the condition is executed at least once even if the condition computes to false during the first iteration.
+// It is also known as an exit-controlled loop
+There is a condition at the end of the loop.
+
+syntax:-
+do {
+   statements;
+   // body of the loop.
+}
+while( Condition );
+
+switch case:- In the switch statement, we compare the condition value with multiple cases. When there is a match with any one of the cases, the block of code corresponding with that case is executed. 
+syntax: -
+switch(expression){  
+case value1:  
+ //code to be executed;  
+ break;  
+case value2:  
+ //code to be executed;  
+ break;  
+......  
+  
+default:   
+ //code to be executed if the above values are not matched;  
+}  
+
+if-else:- The if-else statements execute the block of code when a specified condition is true if the condition is false another block of code can be executed.
+syntax:-
+if (condition) {
+    // Block of code if condition true
+} else {
+    // Block of code is condition false
+}
+
+==>break keyword;- The break statement "jumps out" of a loop. i.e. It stops the execution.
+
+==>continue keyword:- The continue statement "jumps over" one iteration in the loop. i.e.It skips the statement .
+--> happy flow and edge cases.
+
+

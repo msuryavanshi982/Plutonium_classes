@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script type="text/javascript">
+        function convertCurrency(form){
+            form.rupee.value = form.dollar.value * 79
+        }
+    </script>
+</head>
+<body>
+    convert dollar to rupee : 
+    <br>
+    <form action="">
+        enter dollar : 
+        <br>
+        <br>
+        <input type="text" name="dollar" size="15">
+        <br>
+        <br>
+        <input type="button" value="calculate" onclick="convertCurrency(this.form)">
+        <br>
+        in rupee :
+        <input type="text" name="rupee" size=15>
+    </form>
+</body>
+</html>

@@ -1,0 +1,14 @@
+type of variables - let ,var, const  --->>>
+-> Never use var and don't forget to attach let/const while creting variable . Always declaring a variable using const  
+block scope - global
+operayors - assignment , comparison,arithmetic ,bitwise, logical , string , comma ,ternary , type of , relational
+use strict - It switch off the old js features 
+data type - string , number, boolean , array , object , bigInt , symbol , null , undefined 
+-> scope chain = JS engine moves up the scope chain to find a variable . 
+-> variable shadowing 
+-. type conversion / coerion - implicit and explicit 
+Nan (not a number) -> which can't be convert into meaningful number.
+-> temporal dead zone - In this area JS engine knows variable exist but it doesn't allow to use it.
+// W3 school ,MDN , javascript.Info
+-> Short Circuit Evaluation (time and space complexity)
+-> type of => number & NaN = number , string = string , boolean = boolean , Array-objest-null = object 

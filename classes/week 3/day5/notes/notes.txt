@@ -1,0 +1,6 @@
+Steps to do:
+1. Install dependencies with - npm i
+2. Run the server with - node index.js
+3. Send a request to your server from chrome with this url - http://localhost:3000/test-me
+4. Modify the code and see if an updated port, response, or this value 'test-me' still works
+5. Use this to stop server - Ctrl + C

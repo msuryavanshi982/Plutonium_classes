@@ -1,0 +1,23 @@
+ 326  mkdir Assignmnet
+  327  ls
+  328  cd Assignmnet/
+  329  mkdir source destination
+  330  ls
+  331  cd source
+  332  cat > file.txt
+  333  ls
+  334  cp file.txt ../destination
+  335  cd ..
+  336  cd destination
+  337  ls
+  338  rm -r file.txt
+  339  ls
+  340  cd ..
+  341  cd source
+  342  ls
+  343  mv file.txt ../destination
+  344  ls
+  345  cd ..
+  346  cd destination/
+  347  ls
+  348  history

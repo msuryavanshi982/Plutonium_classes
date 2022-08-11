@@ -42,7 +42,7 @@ function filterOddNumbers(num) {
     }
 }
 
-//const evenNumbers = [1, 2, 3, 4, 5]//.push(6).filter(filterOddNumbers);
+// const evenNumbers = [1, 2, 3, 4, 5]//.push(6).filter(filterOddNumbers);
 
 /**
  * Q1. without actually running this code, you need to answer whether this code will run or not along with the reason
